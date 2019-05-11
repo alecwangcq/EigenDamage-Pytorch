@@ -53,10 +53,8 @@ $ python main_prune.py --config ./configs/exp_for_cifar/cifar100/vgg19/one_pass/
 $ python main_prune.py --config ./configs/exp_for_tiny_imagenet/tiny_imagenet/vgg19/one_pass/base/kfacf_eigen_base.json
 
 # for pruning with EigenDamage + Depthwise separable, CIFAR100, VGG19
-$ python main_prune_separable.py --config ./configs/exp_for_svd/cifar100/vgg19/one_pass/base/svd_eigendamage_p1.json
-$ python main_prune_separable.py --config ./configs/exp_for_svd/cifar100/vgg19/one_pass/base/svd_eigendamage_p2.json
+$ python main_prune_separable.py --config ./configs/exp_for_svd/cifar100/vgg19/one_pass/base/svd_eigendamage.json
 ```
-
 
 # Contact
 If you have any questions or suggestions about the code or paper, please do not hesitate to contact with Chaoqi Wang(`alecwangcq@gmail.com` or `cqwang@cs.toronto.edu`)
