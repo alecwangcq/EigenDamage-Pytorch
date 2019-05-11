@@ -1,4 +1,6 @@
 # Compactifying a network by pruning in the Kronecker-factored eigenbasis
+ <img align="right" width="380" height="280" src="imgs/figure1.png">
+
 1. The config file for the experiments are under the directory of `configs/`.
 2. The pruning algorithms are in `pruner/`. Please note that: <br>
    (1) `fisher_diag_pruner.py` implements `C-OBD`. <br>
@@ -6,6 +8,7 @@
    (3) `kfac_full_pruner.py` implements `C-OBS`. <br>
    (4) `kfac_OBD_F2.py` implements `kron-OBD`. <br>
    (5) `kfac_OBS_F2.py` implements `kron-OBS`.
+<br>
 
 # Requirements
 Python3.6, Pytorch 0.4.1
