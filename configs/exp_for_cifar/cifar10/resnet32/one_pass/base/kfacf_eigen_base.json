@@ -1,0 +1,21 @@
+{
+  "exp_name": "cifar10_resnet32_kfacf_eigen_one_pass_",
+  "network": "resnet",
+  "depth": 32,
+  "dataset": "cifar10",
+  "batch_size": 64,
+  "epoch": "150, 150, 150, 150, 150, 150",
+  "learning_rate": "1e-3, 1e-3, 1e-3, 1e-3, 1e-3, 1e-3",
+  "weight_decay": "1e-4, 1e-4, 1e-4, 1e-4, 1e-4, 1e-4",
+  "ratio": "0.4, 0.5, 0.6, 0.7, 0.8, 0.9",
+  "fisher_mode": "eigen",
+  "fisher_type": "true",
+  "fix_layers": 0,
+  "checkpoint": "checkpoint/pretrain/cifar10_resnet32_best.t7",
+  "pruner": "kfac_eigen_pruner",
+  "normalize": false,
+  "prune_mode": "one_pass",
+  "prune_ratio_limit": 0.95,
+  "fix_rotation": false,
+  "re_init": false
+}

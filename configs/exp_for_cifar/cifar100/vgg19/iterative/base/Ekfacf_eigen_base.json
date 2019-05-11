@@ -1,0 +1,22 @@
+{
+  "exp_name": "cifar100_vgg19_Ekfacf_eigen_iterative_",
+  "network": "vgg",
+  "depth": 19,
+  "dataset": "cifar100",
+  "batch_size": 128,
+  "epoch": "120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120",
+  "learning_rate": "1e-3, 1e-3, 1e-3, 1e-3, 1e-3, 1e-3, 1e-3, 1e-3, 1e-3, 1e-3, 1e-3, 1e-3",
+  "weight_decay": "1e-4, 1e-4, 1e-4, 1e-4, 1e-4, 1e-4, 1e-4, 1e-4, 1e-4, 1e-4, 1e-4, 1e-4",
+  "ratio": "0.55, 0.45, 0.4, 0.3, 0.25, 0.25, 0.2, 0.2, 0.2, 0.2, 0.15, 0.1",
+  "fisher_mode": "ekfac_eigen",
+  "fisher_type": "true",
+  "fix_layers": 0,
+  "checkpoint": "checkpoint/pretrain/cifar100_vgg19_best.t7",
+  "pruner": "ekfac_eigen_pruner",
+  "normalize": false,
+  "prune_mode": "iterative",
+  "prune_ratio_limit": 0.5,
+  "fix_rotation": false,
+  "re_init": false,
+  "use_patch": true
+}

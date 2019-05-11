@@ -1,0 +1,9 @@
+{
+  "base": "base/svd_eigendamage.json",
+  "exps":[
+    {
+      "name": "normal",
+      "re_init": false
+    }
+  ]
+}

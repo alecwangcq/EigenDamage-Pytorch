@@ -1,0 +1,9 @@
+{
+  "base": "base/kfacf_OBD_F2_base.json",
+  "exps":[
+    {
+      "name": "normal",
+      "re_init": false
+    }
+  ]
+}

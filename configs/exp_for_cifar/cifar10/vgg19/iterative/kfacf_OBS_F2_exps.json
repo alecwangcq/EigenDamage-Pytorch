@@ -1,0 +1,9 @@
+{
+  "base": "base/kfacf_OBS_F2_base.json",
+  "exps":[
+    {
+      "name": "normal",
+      "re_init": false
+    }
+  ]
+}

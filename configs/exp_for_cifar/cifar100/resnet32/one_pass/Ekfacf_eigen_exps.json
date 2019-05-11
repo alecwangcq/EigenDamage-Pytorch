@@ -1,0 +1,17 @@
+{
+  "base": "base/Ekfacf_eigen_base.json",
+  "exps":[
+    {
+      "name": "normal",
+      "re_init": false,
+      "fix_rotation": false
+    },
+
+
+    {
+      "name": "fixr",
+      "re_init": false,
+      "fix_rotation": true
+    }
+  ]
+}

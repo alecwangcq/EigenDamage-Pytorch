@@ -1,0 +1,21 @@
+{
+  "exp_name": "new_cifar10_iterative_12sets_lr1e3_reinit",
+  "network": "vgg",
+  "depth": 19,
+  "dataset": "cifar10",
+  "batch_size": 128,
+  "epoch": "200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200",
+  "learning_rate": "1e-1, 1e-1, 1e-1, 1e-1, 1e-1, 1e-1, 1e-1, 1e-1, 1e-1, 1e-1, 1e-1, 1e-1",
+  "weight_decay": "2e-4, 2e-4, 2e-4, 2e-4, 2e-4, 2e-4, 2e-4, 2e-4, 2e-4, 2e-4, 2e-4, 2e-4",
+  "ratio": "0.55, 0.45, 0.4, 0.3, 0.25, 0.25, 0.2, 0.2, 0.2, 0.2, 0.15, 0.1",
+  "fisher_mode": "eigen",
+  "fisher_type": "true",
+  "fix_layers": 0,
+  "checkpoint": "checkpoint/pretrain/cifar10_vgg19_best.t7",
+  "pruner": "kfac_eigen_pruner",
+  "normalize": false,
+  "prune_mode": "iterative",
+  "prune_ratio_limit": 0.5,
+  "fix_rotation": false,
+  "re_init": true
+}

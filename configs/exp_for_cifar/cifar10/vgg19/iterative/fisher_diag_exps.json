@@ -1,0 +1,9 @@
+{
+  "base": "base/fisher_diag_base.json",
+  "exps":[
+    {
+      "name": "normal",
+      "re_init": false
+    }
+  ]
+}

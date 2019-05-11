@@ -1,0 +1,9 @@
+{
+  "base": "base/Ekfacf_full_base.json",
+  "exps":[
+    {
+      "name": "normal",
+      "re_init": false
+    }
+  ]
+}

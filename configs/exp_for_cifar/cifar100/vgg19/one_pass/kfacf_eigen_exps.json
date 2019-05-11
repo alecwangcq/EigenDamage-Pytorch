@@ -1,0 +1,10 @@
+{
+  "base": "base/kfacf_eigen_base.json",
+  "exps":[
+    {
+      "name": "normal",
+      "re_init": false,
+      "fix_rotation": false
+    }
+  ]
+}

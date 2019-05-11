@@ -1,0 +1,23 @@
+{
+  "exp_name": "cifar10_vgg19_kfacf_full_no_patch_one_pass_",
+  "network": "vgg",
+  "depth": 19,
+  "dataset": "cifar10",
+  "batch_size": 128,
+  "epoch": "150, 150, 150, 150, 150, 150",
+  "learning_rate": "1e-3, 1e-3, 1e-3, 1e-3, 1e-3, 1e-3",
+  "weight_decay": "1e-4, 1e-4, 1e-4, 1e-4, 1e-4, 1e-4",
+  "ratio": "0.4, 0.5, 0.6, 0.7, 0.8, 0.9",
+  "fisher_mode": "full",
+  "fisher_type": "true",
+  "fix_layers": 0,
+  "checkpoint": "checkpoint/pretrain/cifar10_vgg19_best.t7",
+  "pruner": "kfac_full_pruner",
+  "normalize": false,
+  "prune_mode": "one_pass",
+  "prune_ratio_limit": 0.95,
+  "fix_rotation": false,
+  "re_init": false,
+  "use_patch": false
+}
+
