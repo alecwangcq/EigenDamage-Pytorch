@@ -1,4 +1,5 @@
-# Compactifying a network by pruning in the Kronecker-factored eigenbasis
+# EigenDamage: Structured Pruning in the Kronecker-Factored Eigenbasis
+This repo contains the official implementations of "EigenDamage: Structured Pruning in the Kronecker-Factored Eigenbasis". Details are listed below:
  <img align="right" width="380" height="280" src="imgs/figure1.png">
 
 1. The config file for the experiments are under the directory of `configs/`.
