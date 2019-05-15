@@ -8,7 +8,8 @@ This repo contains the official implementations of "EigenDamage: Structured Prun
    (2) `kfac_eigen_pruner.py` implements `EigenDamage`. <br>
    (3) `kfac_full_pruner.py` implements `C-OBS`. <br>
    (4) `kfac_OBD_F2.py` implements `kron-OBD`. <br>
-   (5) `kfac_OBS_F2.py` implements `kron-OBS`.
+   (5) `kfac_OBS_F2.py` implements `kron-OBS`. <br>
+   (6) `kfac_eigen_svd_pruner.py` implements `EigenDamage Depthwise Separable`.
 <br>
 
 # Requirements
@@ -59,6 +60,7 @@ $ python main_prune.py --config ./configs/exp_for_tiny_imagenet/tiny_imagenet/vg
 # for pruning with EigenDamage + Depthwise separable, CIFAR100, VGG19
 $ python main_prune_separable.py --config ./configs/exp_for_svd/cifar100/vgg19/one_pass/base/svd_eigendamage.json
 ```
+
 
 # Contact
 If you have any questions or suggestions about the code or paper, please do not hesitate to contact with Chaoqi Wang(`alecwangcq@gmail.com` or `cqwang@cs.toronto.edu`)

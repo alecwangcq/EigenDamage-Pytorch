@@ -4,10 +4,10 @@
   "depth": 19,
   "dataset": "tiny_imagenet",
   "batch_size": 128,
-  "epoch": "150, 150, 150, 150",
-  "learning_rate": "1e-4, 1e-4, 1e-5, 1e-5, 1e-5, 1e-5, 1e-5, 1e-5, 1e-5",
-  "weight_decay": "1e-5, 1e-5, 1e-4, 1e-4, 1e-4, 1e-4, 1e-4, 1e-4, 1e-4",
-  "ratio": "0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9",
+  "epoch": "150, 150, 150, 150, 150, 150",
+  "learning_rate": "1e-5, 1e-5, 1e-5, 1e-5, 1e-5, 1e-5",
+  "weight_decay": "1e-4, 1e-4, 1e-4, 1e-4, 1e-4, 1e-4",
+  "ratio": "0.4, 0.5, 0.6, 0.7, 0.8, 0.9",
   "fisher_mode": "eigen_svd",
   "fisher_type": "true",
   "fix_layers": 0,
@@ -19,7 +19,7 @@
   "fix_rotation": false,
   "re_init": false,
   "use_patch": true,
-  "pre_model": "1, 1, 1, 1, 1, 1, 1, 1, 1"
+  "pre_model": "0, 0, 0, 0, 0, 0"
 }
 
 
