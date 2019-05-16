@@ -12,6 +12,17 @@ This repo contains the official implementations of [EigenDamage: Structured Prun
    (6) `kfac_eigen_svd_pruner.py` implements `EigenDamage Depthwise Separable`.
 <br>
 
+# Citation
+To cite this work, please use
+```
+@article{wang2019eigen,
+  title={EigenDamage: Structured Pruning in the Kronecker-Factored Eigenbasis},
+  author={Wang, Chaoqi and Grosse, Roger and Fidler, Sanja and Zhang, Guodong},
+  journal={arXiv preprint arXiv:05934},
+  year={2019}
+}
+```
+
 # Requirements
 Python3.6, Pytorch 0.4.1
 ```
