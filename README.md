@@ -15,12 +15,18 @@ This repo contains the official implementations of [EigenDamage: Structured Prun
 # Citation
 To cite this work, please use
 ```
-@article{wang2019eigen,
-  title={EigenDamage: Structured Pruning in the Kronecker-Factored Eigenbasis},
-  author={Wang, Chaoqi and Grosse, Roger and Fidler, Sanja and Zhang, Guodong},
-  journal={arXiv preprint arXiv:05934},
-  year={2019}
+@InProceedings{wang2019eigen,
+  title = 	 {{E}igen{D}amage: Structured Pruning in the {K}ronecker-Factored Eigenbasis},
+  author = 	 {Wang, Chaoqi and Grosse, Roger and Fidler, Sanja and Zhang, Guodong},
+  booktitle = 	 {Proceedings of the 36th International Conference on Machine Learning},
+  pages = 	 {6566--6575},
+  year = 	 {2019},
+  volume = 	 {97},
+  publisher = {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v97/wang19g/wang19g.pdf},
+  url = 	 {http://proceedings.mlr.press/v97/wang19g.html},
 }
+
 ```
 
 # Requirements
