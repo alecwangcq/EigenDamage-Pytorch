@@ -12,23 +12,6 @@ This repo contains the official implementations of [EigenDamage: Structured Prun
    (6) `kfac_eigen_svd_pruner.py` implements `EigenDamage Depthwise Separable`.
 <br>
 
-# Citation
-To cite this work, please use
-```
-@InProceedings{wang2019eigen,
-  title = 	 {{E}igen{D}amage: Structured Pruning in the {K}ronecker-Factored Eigenbasis},
-  author = 	 {Wang, Chaoqi and Grosse, Roger and Fidler, Sanja and Zhang, Guodong},
-  booktitle = 	 {Proceedings of the 36th International Conference on Machine Learning},
-  pages = 	 {6566--6575},
-  year = 	 {2019},
-  volume = 	 {97},
-  publisher = {PMLR},
-  pdf = 	 {http://proceedings.mlr.press/v97/wang19g/wang19g.pdf},
-  url = 	 {http://proceedings.mlr.press/v97/wang19g.html},
-}
-
-```
-
 # Requirements
 Python3.6, Pytorch 0.4.1
 ```
@@ -78,7 +61,23 @@ $ python main_prune.py --config ./configs/exp_for_tiny_imagenet/tiny_imagenet/vg
 $ python main_prune_separable.py --config ./configs/exp_for_svd/cifar100/vgg19/one_pass/base/svd_eigendamage.json
 ```
 
-
 # Contact
 If you have any questions or suggestions about the code or paper, please do not hesitate to contact with Chaoqi Wang(`alecwangcq@gmail.com` or `cqwang@cs.toronto.edu`)
 and Guodong Zhang(`gdzhang.cs@gmail.com` or `gdzhang@cs.toronto.edu`). 
+
+# Citation
+To cite this work, please use
+```
+@InProceedings{wang2019eigen,
+  title = 	 {{E}igen{D}amage: Structured Pruning in the {K}ronecker-Factored Eigenbasis},
+  author = 	 {Wang, Chaoqi and Grosse, Roger and Fidler, Sanja and Zhang, Guodong},
+  booktitle = 	 {Proceedings of the 36th International Conference on Machine Learning},
+  pages = 	 {6566--6575},
+  year = 	 {2019},
+  volume = 	 {97},
+  publisher = {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v97/wang19g/wang19g.pdf},
+  url = 	 {http://proceedings.mlr.press/v97/wang19g.html},
+}
+
+```
